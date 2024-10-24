@@ -4,6 +4,8 @@ format: html
 editor: visual
 ---
 
+## 
+
 ## Depression and Academic performance in FUNAAB
 
 ### Introduction
@@ -28,26 +30,17 @@ This project focuses on \[briefly describe the objective of your project, e.g cl
 
 1.  Clone the repository:
 
-    ```         
-    bash
-
-    git clone https://github.com/yourusername/your-project.git
+    ```{bash} #| echo: true #| eval: false git clone https://github.com/Victor-Thrive/Depression-and-acdemic-performanc.git}
     ```
 
 2.  Navigate to the project folder:
 
-    ```         
-    bash
-
-    cd your-project
+    ```{bash} #| echo: true #| eval: false cd your-project}
     ```
 
-3.  Install the required R packages (rub this in Rstudio or Positron)
+3.  Install the required R packages (run this in Rstudio or Positron)
 
-    ```         
-    r
-
-    install.packages(c("dplyr", "tidyr", "ggplot2"))
+    ```{r} #| echo: true #| eval: false packages <- c("tidyverse",               "tidymodel",               "pysch",               "GPArotation",               "mice",               "googlesheets4") install.packages(packages)}
     ```
 
 #### Usage
@@ -64,9 +57,7 @@ To run the scripts:
     -   **Run command** (in R):
 
         ```         
-        r
-
-        source("01-data-cleaning")
+        r  source("01-data-cleaning")
         ```
 
 -   **Summary of the process**:
@@ -82,15 +73,7 @@ To run the scripts:
 ## Project Structure
 
 ```         
-plaintext
-
-├── data/               # Raw and cleaned data files
-├── scripts/            # R scripts
-│   ├── 01-data-cleaning.R  # Data cleaning script
-│   ├── 02-EFA.R            # Exploratory Factor Analysis script
-│   └── 03-model.R          # Model building script (pending)
-├── README.md           # Project documentation
-└── outputs/            # Generated outputs (e.g., cleaned datasets, results)
+plaintext  ├── data/               # Raw and cleaned data files ├── scripts/            # R scripts │   ├── 01-data-cleaning.R  # Data cleaning script │   ├── 02-EFA.R            # Exploratory Factor Analysis script │   └── 03-model.R          # Model building script (pending) ├── README.md           # Project documentation └── outputs/            # Generated outputs (e.g., cleaned datasets, results)
 ```
 
 ## Dependencies
@@ -99,7 +82,7 @@ plaintext
 
 -   Packages: `dplyr`, `tidyr`, `ggplot2`, \[list any others\].
 
-## Contributing
+-   
 
 If you'd like to contribute:
 
