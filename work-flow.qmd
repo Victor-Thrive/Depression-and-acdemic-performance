@@ -1,0 +1,168 @@
+---
+title: "work-flow"
+format: html
+editor: visual
+---
+
+## Depression and Academic performance in FUNAAB
+
+### Introduction
+
+This project focuses on \[briefly describe the objective of your project, e.g cleaning data, performing Exploratory Factor Analysis (EFA), and building models\]. It aims to \[mention the main goal or ouput\]
+
+### Installation and Setup
+
+#### Prerequisites
+
+-   R version \[version\] or higher
+
+-   Required R packages:
+
+    -   `dplyr`
+
+    -   `tidyr`
+
+    -   `ggplot`
+
+#### Installation Steps
+
+1.  Clone the repository:
+
+    ```         
+    bash
+
+    git clone https://github.com/yourusername/your-project.git
+    ```
+
+2.  Navigate to the project folder:
+
+    ```         
+    bash
+
+    cd your-project
+    ```
+
+3.  Install the required R packages (rub this in Rstudio or Positron)
+
+    ```         
+    r
+
+    install.packages(c("dplyr", "tidyr", "ggplot2"))
+    ```
+
+#### Usage
+
+To run the scripts:
+
+1.  **Data Cleaning Script (01-data-cleaning.R)**
+    -   This script handles the cleaning and preprocessing of raw data. It removes missing values, handles outliers, and reshapes the data into a usable format.
+
+    -   **Input**: Raw data files (e.g., CSV or Excel).
+
+    -   **Output**: Cleaned and processed dataset stored as a `.csv` file or an R data object.
+
+    -   **Run command** (in R):
+
+        ```         
+        r
+
+        source("01-data-cleaning")
+        ```
+
+-   **Summary of the process**:
+
+    -   Handles missing values by \[describe method\].
+
+    -   Deals with outliers using \[describe technique\].
+
+    -   Reshapes data for analysis by \[explain transformation, if applicable\].
+
+1.  \[Add for other scripts as you finish them.\]
+
+## Project Structure
+
+```         
+plaintext
+
+├── data/               # Raw and cleaned data files
+├── scripts/            # R scripts
+│   ├── 01-data-cleaning.R  # Data cleaning script
+│   ├── 02-EFA.R            # Exploratory Factor Analysis script
+│   └── 03-model.R          # Model building script (pending)
+├── README.md           # Project documentation
+└── outputs/            # Generated outputs (e.g., cleaned datasets, results)
+```
+
+## Dependencies
+
+-   R and RStudio (optional but recommended)
+
+-   Packages: `dplyr`, `tidyr`, `ggplot2`, \[list any others\].
+
+## Contributing
+
+If you'd like to contribute:
+
+1.  Fork the repository.
+
+2.  Create a new branch.
+
+3.  Submit a pull request with your changes.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+For survey data, **sampling without replacement** is typically preferred when drawing samples for Exploratory Factor Analysis (EFA). Here’s why:
+
+1.  **Without Replacement**:
+
+    -   This method ensures that each data point can only be selected once, making the sample more representative of the underlying population, especially when the dataset is small (240 in your case).
+
+    -   It maintains the original distribution of the data, which is important for EFA, as this technique relies on detecting underlying patterns or latent variables in the data.
+
+    -   For a dataset of 240 records, sampling **without replacement** is better to ensure diversity and minimize potential biases in the sample.
+
+The error `Lapack routine dgesv: system is exactly singular: U[5,5] = 0` occurs when the covariance matrix in your analysis is singular or near-singular, meaning it cannot be inverted. This typically happens when there is multicollinearity (i.e., one or more variables are linear combinations of others) or insufficient variability in the dataset.
+
+Here’s how you can troubleshoot and fix the issue:
+
+### Steps to Fix:
+
+1.  **Check for perfect multicollinearity**: Multicollinearity occurs when some variables are highly correlated or even linearly dependent. You can check this using a correlation matrix or Variance Inflation Factor (VIF) analysis.
+
+    ```         
+    r
+    ```
+
+    Copy code
+
+    `cor(df)  # Correlation matrix`
+
+    If you find variables with correlation coefficients close to `1` or `-1`, consider removing one of the correlated variables.
+
+2.  **Remove near-zero variance predictors**: Some variables may have little to no variance (e.g., all values are almost identical), which can cause singularity. You can detect near-zero variance predictors using the `nearZeroVar()` function from the `caret` package.
+
+    ```         
+    r
+    ```
+
+    Copy code
+
+    `library(caret) nearZeroVar(df, saveMetrics = TRUE)`
+
+    This will help you identify columns with very little variability. Consider removing those variables from the dataset.
+
+3.  **Check for missing data**: Missing values can also lead to problems with matrix inversion. Ensure there are no `NA`s in your data.
+
+    ```         
+    r
+    ```
+
+    Copy code
+
+    `summary(df)  # Check for NAs`
+
+    If there are missing values, consider handling them with imputation or by removing incomplete rows.
+
+4.  **Regularization (Shrinkage)**: If you can't resolve the singularity by removing multicollinear variables or zero-variance predictors, you might consider using a regularized (shrinkage) approach, such as **Ridge Regression** or **Penalized Factor Analysis**, to stabilize the covariance matrix.
