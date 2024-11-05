@@ -167,69 +167,40 @@ survey_data$college[which(is.na(survey_data$college))] <- "COLPHEC"
 table(survey_data$college)
 sum(is.na(survey_data$college)) # check if there is missing value
 
+# Create a named vector for the scoring system
+score_mapping <- setNames(c(
+  100, 25, 73, 65, 63, 53, 50, 47, 45, 44,
+  40, 39, 39, 39, 38, 35, 31, 30, 30, 29,
+  29, 29, 28, 28, 28, 25, 25, 25, 25, 35
+), paste0("S", 1:30))
+
 # convert E1:E30 to ordered factors
-survey_data[,c(42:71)] <- survey_data[,c(42:71)] %>%
-  mutate(
-    across(
-      .cols = everything(),
-      .fns = function(x) factor(x, levels = c(1,2,3,4,5), ordered = TRUE )
+ new_data <- survey_data %>%
+    mutate(
+      across(
+        .cols = matches("^E([1-9]|[12][0-9]|30)$"),  # Match columns E1 to E30
+        .fns = ~ factor(., levels = c(1, 2, 3, 4, 5), ordered = TRUE)  # Convert to ordered factors
+      )
+    ) |>
+    mutate(
+      across(
+        .cols = matches("^S([1-9]|[12][0-9]|30)$"),
+        .fns = function(x) factor(x, levels = c("YES","NO"))
+      )
+    ) |>
+    mutate(across(all_of(names(score_mapping)), 
+                  ~ if_else(. == "YES", score_mapping[names(score_mapping) == cur_column()], 0), 
+                  .names = "{.col}")) |>
+    mutate(stress_score = rowSums(across(matches("^S([1-9]|[12][0-9]|30)$")), na.rm = TRUE)) |>
+    mutate(stress_level = case_when(
+      stress_score < 150 ~ "Very little",
+      stress_score >= 150 & stress_score < 200 ~ "Mild",
+      stress_score >= 200 & stress_score < 250 ~ "Moderate",
+      stress_score >= 250 & stress_score < 300 ~ "Serious",
+      TRUE ~ "Major"  # Catch-all for stress_score >= 300
     ))
-
-# convert S1:S30 to two level factor
-survey_data[,c(12:34)] <- survey_data[,c(12:34)] %>%
-  mutate(
-    across(
-      .cols = everything(),
-      .fns = function(x) factor(x, levels = c("YES","NO"))
-    )
-  )
-
-# scoring each scale
-survey_data[,12] <- survey_data %>% select(S1) %>% transmute(S1 = ifelse(S1 == "YES", 100,0))
-survey_data[,13] <- survey_data %>% select(S2) %>% transmute(S2 = ifelse(S2 == "YES", 25,0))
-survey_data[,14] <- survey_data %>% select(S3) %>% transmute(S3 = ifelse(S3 == "YES", 73,0))
-survey_data[,15] <- survey_data %>% select(S4) %>% transmute(S4 = ifelse(S4 == "YES", 65,0))
-survey_data[,16] <- survey_data %>% select(S5) %>% transmute(S5 = ifelse(S5 == "YES", 63,0))
-survey_data[,17] <- survey_data %>% select(S6) %>% transmute(S6 = ifelse(S6 == "YES", 53,0))
-survey_data[,18] <- survey_data %>% select(S7) %>% transmute(S7 = ifelse(S7 == "YES", 50,0))
-survey_data[,19] <- survey_data %>% select(S8) %>% transmute(S8 = ifelse(S8 == "YES", 47,0))
-survey_data[,20] <- survey_data %>% select(S9) %>% transmute(S9 = ifelse(S9 == "YES", 45,0))
-survey_data[,21] <- survey_data %>% select(S10) %>% transmute(S10 = ifelse(S10 == "YES", 44,0))
-survey_data[,22] <- survey_data %>% select(S11) %>% transmute(S11 = ifelse(S11 == "YES", 40,0))
-survey_data[,23] <- survey_data %>% select(S12) %>% transmute(S12 = ifelse(S12 == "YES", 39,0))
-survey_data[,24] <- survey_data %>% select(S13) %>% transmute(S13 = ifelse(S13 == "YES", 39,0))
-survey_data[,25] <- survey_data %>% select(S14) %>% transmute(S14 = ifelse(S14 == "YES", 39,0))
-survey_data[,26] <- survey_data %>% select(S15) %>% transmute(S15 = ifelse(S15 == "YES", 38,0))
-survey_data[,27] <- survey_data %>% select(S16) %>% transmute(S16 = ifelse(S16 == "YES", 35,0))
-survey_data[,28] <- survey_data %>% select(S17) %>% transmute(S17 = ifelse(S17 == "YES", 31,0))
-survey_data[,29] <- survey_data %>% select(S18) %>% transmute(S18 = ifelse(S18 == "YES", 30,0))
-survey_data[,30] <- survey_data %>% select(S19) %>% transmute(S19 = ifelse(S19 == "YES", 30,0))
-survey_data[,31] <- survey_data %>% select(S20) %>% transmute(S20 = ifelse(S20 == "YES", 29,0))
-survey_data[,32] <- survey_data %>% select(S21) %>% transmute(S21 = ifelse(S21 == "YES", 29,0))
-survey_data[,33] <- survey_data %>% select(S22) %>% transmute(S22 = ifelse(S22 == "YES", 29,0))
-survey_data[,34] <- survey_data %>% select(S23) %>% transmute(S23 = ifelse(S23 == "YES", 28,0))
-survey_data[,35] <- survey_data %>% select(S24) %>% transmute(S24 = ifelse(S24 == "YES", 28,0))
-survey_data[,36] <- survey_data %>% select(S25) %>% transmute(S25 = ifelse(S25 == "YES", 28,0))
-survey_data[,37] <- survey_data %>% select(S26) %>% transmute(S26 = ifelse(S26 == "YES", 25,0))
-survey_data[,38] <- survey_data %>% select(S27) %>% transmute(S27 = ifelse(S27 == "YES", 25,0))
-survey_data[,39] <- survey_data %>% select(S28) %>% transmute(S28 = ifelse(S28 == "YES", 25,0))
-survey_data[,40] <- survey_data %>% select(S29) %>% transmute(S29 = ifelse(S29 == "YES", 25,0))
-survey_data[,41] <- survey_data %>% select(S30) %>% transmute(S30 = ifelse(S30 == "YES", 35,0))
-
-
-# create stress score column
-survey_data <- survey_data %>% mutate(stress_score = rowSums(across(c(12:34))))
-
-# create stress state column
-survey_data <- survey_data %>% 
-  mutate(stress_level = ifelse(stress_score < 150,"Very little",
-                        ifelse(stress_score >= 150 & stress_score < 200,"Mild",
-                        ifelse(stress_score >= 200 & stress_score < 250,"Moderate",
-                        ifelse(stress_score >= 250 & stress_score < 300,"Serious","Major")))))
-
-
+  
 
 # write new data to file
 #write_rds(survey,"new_my_survey.rds")
-write.csv(survey_data,"clean_survey_data.csv")
-View(survey_data)
+write.csv(new_data,"data/survey.csv")

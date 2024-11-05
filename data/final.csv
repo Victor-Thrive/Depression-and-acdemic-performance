@@ -1,0 +1,225 @@
+"","age","gender","college","department","level","religion","G.P.A","C.G.P","status","sponsor","stress_score","stress_level","f1","f2","f3"
+"1","24 - 29","Male","COLPLANT","FST",400,"Christianity","1.5- 2.4","2.5 - 3.4","Single","Parent",35,"Very little",0,0,0
+"2","24 - 29","Female","COLPHYS","STS",400,"Christianity","4.5 - 5.0","2.5 - 3.4","Single","Parent",140,"Very little",0,1,1
+"3","18 - 23","Female","COLPHEC","NTD",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",206,"Moderate",4,2,1
+"4","24 - 29","Male","COLPLANT","HRT",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Guardian",396,"Major",3,4,2
+"5","24 - 29","Male","COLPHYS","CSC",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Guardian",614,"Major",5,4,3
+"6","24 - 29","Male","COLERM","WMA",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",546,"Major",2,2,0
+"7","24 - 29","Male","COLPHYS","STS",200,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",212,"Moderate",4,3,1
+"8","18 - 23","Male","COLANIM","ANN",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Guardian",385,"Major",5,3,0
+"9","24 - 29","Female","COLBIOS","MCB",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Guardian",360,"Major",4,2,1
+"10","24 - 29","Female","COLPLANT","SSLM",500,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",251,"Serious",2,2,0
+"11","18 - 23","Male","COLPHYS","CSC",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",596,"Major",3,3,1
+"12","24 - 29","Male","COLPHYS","CSC",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",191,"Mild",0,0,3
+"13","18 - 23","Female","COLBIOS","MCB",400,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",272,"Serious",1,1,1
+"14","18 - 23","Male","COLPHYS","MTS",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",128,"Very little",2,2,0
+"15","24 - 29","Female","COLPHYS","CSC",400,"Christianity","2.5 - 3.4","3.5 - 4.4","Single","Parent",435,"Major",5,3,3
+"16","18 - 23","Male","COLENG","CVE",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",396,"Major",2,1,3
+"17","18 - 23","Female","COLPHYS","CSC",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",409,"Major",4,3,3
+"18","24 - 29","Female","COLPHYS","CSC",400,"Islamic","4.5 - 5.0","3.5 - 4.4","Single","Guardian",335,"Major",4,4,1
+"19","18 - 23","Male","COLANIM","ANN",200,"Christianity","2.5 - 3.4","3.5 - 4.4","Single","Parent",586,"Major",5,5,5
+"20","24 - 29","Female","COLANIM","ANN",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",203,"Moderate",1,0,1
+"21","24 - 29","Male","COLANIM","ABG",500,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",295,"Serious",5,3,1
+"22","24 - 29","Female","COLBIOS","MCB",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",300,"Major",2,1,1
+"23","18 - 23","Female","COLPHEC","FST",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",134,"Very little",3,1,0
+"24","18 - 23","Male","COLPHYS","CSC",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",325,"Major",4,3,1
+"25","18 - 23","Female","COLBIOS","PAZ",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",393,"Major",4,3,2
+"26","18 - 23","Male","COLPHYS","CSC",300,"Islamic","3.5 - 4.4","2.5 - 3.4","Single","Parent",360,"Major",2,4,1
+"27","18 - 23","Male","COLPHYS","CSC",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",330,"Major",3,3,3
+"28","18 - 23","Male","COLPLANT","CPT",200,"Christianity","2.5 - 3.4","1.5- 2.4","Single","Parent",275,"Serious",3,3,1
+"29","18 - 23","Male","COLPHYS","CSC",300,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",222,"Moderate",4,3,0
+"30","18 - 23","Male","COLPHYS","CSC",100,"Islamic","4.5 - 5.0","4.5- 5.0","Single","Parent",299,"Serious",4,4,1
+"31","18 - 23","Male","COLPHYS","PHS",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Self",304,"Major",5,3,0
+"32","18 - 23","Male","COLERM","WMA",400,"Christianity","1.5- 2.4","1.5- 2.4","Single","Parent",357,"Major",0,2,2
+"33","18 - 23","Female","COLBIOS","MCB",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",293,"Serious",3,1,2
+"34","18 - 23","Male","COLPHYS","STS",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",178,"Mild",0,0,0
+"35","24 - 29","Male","COLPHYS","MTS",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",224,"Moderate",2,2,0
+"36","24 - 29","Male","COLANIM","APH",500,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",206,"Moderate",3,2,0
+"37","18 - 23","Female","COLANIM","ANN",200,"Islamic","2.5 - 3.4","2.5 - 3.4","Single","Guardian",346,"Major",5,2,2
+"38","18 - 23","Male","COLPHYS","STS",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",417,"Major",5,4,3
+"39","18 - 23","Female","COLPHYS","MTS",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",152,"Mild",5,2,1
+"40","18 - 23","Female","COLBIOS","PAZ",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",507,"Major",5,5,1
+"41","18 - 23","Male","COLBIOS","BCH",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",295,"Serious",5,4,2
+"42","18 - 23","Male","COLPHYS","MTS",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",95,"Very little",3,1,0
+"43","18 - 23","Female","COLPHEC","FST",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",88,"Very little",0,1,0
+"44","18 - 23","Male","COLPHYS","STS",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",198,"Mild",3,4,0
+"45","18 - 23","Female","COLPHEC","FST",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",231,"Moderate",3,2,0
+"46","18 - 23","Male","COLPHEC","FST",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",174,"Mild",3,3,0
+"47","18 - 23","Female","COLPHYS","CSC",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",187,"Mild",3,2,0
+"48","18 - 23","Male","COLERM","WMA",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",397,"Major",5,4,2
+"49","18 - 23","Female","COLPLANT","CPT",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",559,"Major",3,3,3
+"50","24 - 29","Male","COLPLANT","PBST",500,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",361,"Major",2,1,1
+"51","18 - 23","Male","COLANIM","APH",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",117,"Very little",2,0,0
+"52","18 - 23","Female","COLPHYS","PHS",200,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",289,"Serious",5,5,4
+"53","18 - 23","Female","COLPLANT","CPT",200,"Islamic","2.5 - 3.4","2.5 - 3.4","Single","Parent",365,"Major",4,4,0
+"54","18 - 23","Male","COLPLANT","CPT",200,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",103,"Very little",3,2,0
+"55","18 - 23","Female","COLPLANT","CPT",200,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",78,"Very little",0,0,0
+"56","18 - 23","Female","COLPHEC","FST",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",216,"Moderate",2,0,1
+"57","24 - 29","Female","COLPLANT","CPT",200,"Christianity","1.5- 2.4","1.5- 2.4","Single","Self",569,"Major",4,4,1
+"58","18 - 23","Male","COLANIM","APH",300,"Christianity","1.5- 2.4","1.5- 2.4","Single","Parent",186,"Mild",3,0,1
+"59","18 - 23","Female","COLPLANT","CPT",200,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",226,"Moderate",2,3,0
+"60","24 - 29","Male","COLPHYS","STS",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",241,"Moderate",3,3,0
+"61","18 - 23","Male","COLPHYS","MTS",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",240,"Moderate",3,0,0
+"62","24 - 29","Male","COLANIM","ANP",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",313,"Major",2,3,1
+"63","18 - 23","Female","COLANIM","ANP",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",160,"Mild",2,2,1
+"64","18 - 23","Female","COLANIM","ANP",300,"Islamic","2.5 - 3.4","3.5 - 4.4","Single","Parent",296,"Serious",4,4,1
+"65","18 - 23","Male","COLPLANT","SSLM",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Guardian",205,"Moderate",2,2,1
+"66","24 - 29","Male","COLPHYS","STS",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Cohabiting","Parent",269,"Serious",4,4,1
+"67","18 - 23","Male","COLPHYS","MTS",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",345,"Major",3,2,3
+"68","30 - 35","Male","COLPHYS","MTS",400,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Self",325,"Major",2,3,1
+"69","18 - 23","Female","COLPHYS","MTS",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",514,"Major",5,2,2
+"70","18 - 23","Female","COLPHYS","PHS",400,"Christianity","2.5 - 3.4","1.5- 2.4","Single","Parent",393,"Major",3,1,1
+"71","24 - 29","Male","COLPHYS","CSC",300,"Islamic","2.5 - 3.4","3.5 - 4.4","Single","Parent",197,"Mild",3,3,0
+"72","18 - 23","Male","COLPHYS","MTS",100,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",366,"Major",3,4,3
+"73","24 - 29","Male","COLERM","WMA",400,"Islamic","3.5 - 4.4","2.5 - 3.4","Single","Parent",502,"Major",5,5,2
+"74","18 - 23","Male","COLPHYS","MTS",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",253,"Serious",5,4,1
+"75","18 - 23","Male","COLPHYS","MTS",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",81,"Very little",2,2,0
+"76","18 - 23","Male","COLPHYS","MTS",100,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",300,"Major",5,5,0
+"77","24 - 29","Male","COLPHYS","CSC",400,"Islamic","1.5- 2.4","1.5- 2.4","Single","Parent",380,"Major",5,4,2
+"78","24 - 29","Male","COLPHYS","MTS",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Self",376,"Major",5,5,3
+"79","24 - 29","Male","COLPHYS","STS",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",169,"Mild",2,2,0
+"80","24 - 29","Male","COLPHYS","PHS",100,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Self",425,"Major",2,3,3
+"81","24 - 29","Female","COLPHYS","STS",400,"Christianity","2.5 - 3.4","3.5 - 4.4","Single","Parent",234,"Moderate",1,1,0
+"82","18 - 23","Male","COLPHYS","CHM",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",465,"Major",4,4,4
+"83","24 - 29","Female","COLPHYS","CHM",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",367,"Major",3,2,0
+"84","18 - 23","Female","COLERM","AQFM",200,"Islamic","2.5 - 3.4","2.5 - 3.4","Single","Parent",248,"Moderate",5,4,0
+"85","18 - 23","Male","COLPHYS","PHS",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",318,"Major",3,1,3
+"86","18 - 23","Male","COLPLANT","CPT",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",0,"Very little",0,0,0
+"87","18 - 23","Male","COLBIOS","PAB",100,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Guardian",248,"Moderate",5,3,1
+"88","18 - 23","Female","COLBIOS","MCB",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",244,"Moderate",0,1,1
+"89","24 - 29","Female","COLPLANT","PBST",400,"Islamic","4.5 - 5.0","3.5 - 4.4","Single","Parent",354,"Major",2,2,1
+"90","18 - 23","Female","COLBIOS","MCB",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",297,"Serious",4,4,1
+"91","24 - 29","Male","COLPLANT","PBST",400,"Christianity","1.5- 2.4","2.5 - 3.4","Single","Self",305,"Major",4,3,1
+"92","18 - 23","Female","COLPHEC","FST",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",152,"Mild",2,1,1
+"93","18 - 23","Female","COLPLANT","PBST",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",99,"Very little",0,1,0
+"94","18 - 23","Male","COLENG","AGE",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",201,"Moderate",2,1,1
+"95","18 - 23","Female","COLERM","EMT",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",368,"Major",2,3,1
+"96","18 - 23","Male","COLPLANT","PBST",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",191,"Mild",2,2,0
+"97","18 - 23","Male","COLPLANT","CPT",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",426,"Major",3,4,3
+"98","18 - 23","Male","COLPHEC","HTM",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",180,"Mild",1,1,0
+"99","18 - 23","Female","COLERM","EMT",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",138,"Very little",2,3,1
+"100","18 - 23","Male","COLPHYS","STS",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",149,"Very little",2,3,0
+"101","18 - 23","Male","COLPHYS","CSC",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",234,"Moderate",4,3,2
+"102","18 - 23","Female","COLMAS","ETS",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",427,"Major",5,3,2
+"103","18 - 23","Female","COLBIOS","MCB",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Other",248,"Moderate",3,4,2
+"104","18 - 23","Female","COLMAS","ETS",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",293,"Serious",5,4,3
+"105","18 - 23","Male","COLPHYS","PHS",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",242,"Moderate",4,3,0
+"106","18 - 23","Female","COLPHEC","HSM",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",340,"Major",2,1,2
+"107","24 - 29","Male","COLBIOS","MCB",400,"Christianity","2.5 - 3.4","3.5 - 4.4","Single","Parent",377,"Major",5,3,4
+"108","18 - 23","Female","COLENG","CVE",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",512,"Major",5,4,5
+"109","30 - 35","Male","COLPHYS","PHS",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Self",445,"Major",4,4,1
+"110","18 - 23","Male","COLVET","VET",100,"Christianity","2.5 - 3.4","3.5 - 4.4","Single","Parent",251,"Serious",2,2,0
+"111","18 - 23","Male","COLENG","ELE",500,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",148,"Very little",5,3,0
+"112","18 - 23","Female","COLPHYS","CHM",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",305,"Major",3,2,0
+"113","18 - 23","Male","COLPHYS","STS",300,"Islamic","3.5 - 4.4","2.5 - 3.4","Single","Self",367,"Major",3,2,0
+"114","18 - 23","Male","COLPHYS","STS",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",347,"Major",3,2,1
+"115","24 - 29","Male","COLPHYS","STS",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Self",488,"Major",5,4,2
+"116","18 - 23","Female","COLPHYS","STS",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",214,"Moderate",2,2,1
+"117","18 - 23","Male","COLPHYS","STS",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",211,"Moderate",2,0,1
+"118","18 - 23","Male","COLPHYS","STS",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",280,"Serious",5,5,0
+"119","18 - 23","Female","COLPHYS","STS",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",387,"Major",5,5,2
+"120","18 - 23","Male","COLPHYS","STS",300,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",340,"Major",3,5,2
+"121","24 - 29","Male","COLPHYS","STS",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",213,"Moderate",4,4,0
+"122","18 - 23","Female","COLPHYS","STS",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",155,"Mild",0,1,1
+"123","18 - 23","Female","COLPHYS","STS",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",217,"Moderate",3,4,0
+"124","18 - 23","Female","COLPHYS","STS",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",488,"Major",5,4,1
+"125","18 - 23","Male","COLPHYS","MTS",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",392,"Major",1,1,2
+"126","18 - 23","Male","COLPHYS","PHS",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",211,"Moderate",3,2,2
+"127","24 - 29","Male","COLPHYS","STS",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",273,"Serious",0,3,0
+"128","18 - 23","Male","COLENG","AGE",100,"Islamic","4.5 - 5.0","4.5- 5.0","Single","Parent",313,"Major",4,2,1
+"129","18 - 23","Male","COLENG","AGE",100,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",256,"Serious",0,2,3
+"130","18 - 23","Female","COLPHYS","STS",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",145,"Very little",1,1,1
+"131","24 - 29","Female","COLPHYS","CHM",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",165,"Mild",3,1,0
+"132","18 - 23","Female","COLPHEC","FST",300,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",114,"Very little",0,2,0
+"133","18 - 23","Male","COLENG","MCE",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",107,"Very little",0,2,0
+"134","18 - 23","Male","COLPHEC","FST",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",100,"Very little",2,0,1
+"135","18 - 23","Male","COLPHYS","CHM",300,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",361,"Major",3,3,1
+"136","18 - 23","Female","COLPHYS","CHM",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",336,"Major",3,3,1
+"137","24 - 29","Female","COLPHYS","CHM",300,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Other",204,"Moderate",4,2,0
+"138","18 - 23","Female","COLPHYS","CHM",400,"Islamic","2.5 - 3.4","3.5 - 4.4","Single","Parent",376,"Major",3,3,0
+"139","18 - 23","Female","COLPHYS","CHM",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",411,"Major",3,3,0
+"140","18 - 23","Female","COLPHEC","FST",300,"Christianity","2.5 - 3.4","3.5 - 4.4","Single","Parent",369,"Major",5,4,2
+"141","24 - 29","Female","COLPHYS","CHM",300,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",399,"Major",1,2,2
+"142","18 - 23","Female","COLPHYS","CHM",300,"Christianity","2.5 - 3.4","3.5 - 4.4","Single","Parent",340,"Major",2,1,1
+"143","24 - 29","Male","COLPHYS","CHM",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",259,"Serious",2,1,0
+"144","18 - 23","Female","COLPHYS","CHM",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",454,"Major",5,5,3
+"145","18 - 23","Female","COLPHEC","FST",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",207,"Moderate",2,2,1
+"146","18 - 23","Male","COLPLANT","SSLM",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",297,"Serious",5,5,0
+"147","18 - 23","Female","COLPLANT","SSLM",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",255,"Serious",1,2,1
+"148","18 - 23","Female","COLPHYS","STS",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",177,"Mild",2,2,0
+"149","24 - 29","Female","COLPHYS","STS",300,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",371,"Major",0,2,3
+"150","18 - 23","Male","COLPHYS","STS",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",387,"Major",5,3,3
+"151","18 - 23","Male","COLPHYS","STS",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",84,"Very little",0,0,0
+"152","18 - 23","Female","COLPLANT","CPT",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Guardian",180,"Mild",3,3,1
+"153","18 - 23","Male","COLPLANT","CPT",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",394,"Major",5,5,1
+"154","24 - 29","Male","COLENG","CVE",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",437,"Major",5,4,2
+"155","24 - 29","Female","COLPLANT","SSLM",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",354,"Major",4,3,3
+"156","24 - 29","Female","COLERM","WMA",500,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",325,"Major",0,1,1
+"157","18 - 23","Male","COLPLANT","SSLM",200,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",196,"Mild",0,1,1
+"158","24 - 29","Female","COLBIOS","MCB",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",205,"Moderate",2,1,0
+"159","18 - 23","Female","COLERM","FWM",300,"Islamic","3.5 - 4.4","2.5 - 3.4","Single","Self",157,"Mild",0,2,2
+"160","18 - 23","Male","COLENG","AGE",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",297,"Serious",2,0,1
+"161","24 - 29","Female","COLPHEC","HTM",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",380,"Major",3,2,2
+"162","18 - 23","Female","COLPHEC","HTM",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",225,"Moderate",1,1,1
+"163","18 - 23","Female","COLERM","FWM",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",242,"Moderate",5,5,1
+"164","18 - 23","Male","COLPLANT","PBST",100,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",346,"Major",3,5,1
+"165","18 - 23","Female","COLERM","FWM",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",423,"Major",5,5,3
+"166","24 - 29","Female","COLBIOS","PAZ",200,"Christianity","2.5 - 3.4","4.5- 5.0","Single","Parent",223,"Moderate",1,1,1
+"167","18 - 23","Male","COLENG","MCE",200,"Christianity","4.5 - 5.0","4.5- 5.0","Single","Parent",241,"Moderate",2,2,0
+"168","24 - 29","Male","COLERM","FWM",300,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",428,"Major",1,1,2
+"169","18 - 23","Male","COLBIOS","MCB",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",459,"Major",5,5,3
+"170","18 - 23","Female","COLBIOS","MCB",100,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Self",323,"Major",3,2,1
+"171","18 - 23","Female","COLBIOS","MCB",200,"Christianity","3.5 - 4.4","4.5- 5.0","Single","Parent",137,"Very little",1,1,0
+"172","24 - 29","Female","COLBIOS","PAZ",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",426,"Major",5,4,1
+"173","24 - 29","Male","COLERM","WMA",400,"Islamic","3.5 - 4.4","2.5 - 3.4","Single","Guardian",356,"Major",3,2,2
+"174","18 - 23","Female","COLANIM","ANN",300,"Islamic","3.5 - 4.4","2.5 - 3.4","Single","Parent",471,"Major",5,5,1
+"175","18 - 23","Female","COLPHEC","FST",500,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",149,"Very little",2,3,0
+"176","18 - 23","Male","COLBIOS","MCB",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Cohabiting","Parent",165,"Mild",2,0,1
+"177","18 - 23","Male","COLENG","AGE",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",159,"Mild",0,2,0
+"178","24 - 29","Male","COLAMRUD","AGAD",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",95,"Very little",2,1,0
+"179","24 - 29","Male","COLANIM","PRM",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Other",209,"Moderate",3,0,0
+"180","24 - 29","Female","COLPHEC","FST",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",259,"Serious",2,1,0
+"181","18 - 23","Male","COLPLANT","HRT",300,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",283,"Serious",4,3,2
+"182","24 - 29","Male","COLAMRUD","AGAD",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",351,"Major",5,4,3
+"183","18 - 23","Female","COLANIM","ANP",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",342,"Major",3,4,4
+"184","24 - 29","Female","COLAMRUD","AERD",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",361,"Major",5,4,4
+"185","18 - 23","Male","COLANIM","APH",300,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",60,"Very little",0,1,0
+"186","18 - 23","Female","COLANIM","PRM",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",439,"Major",4,2,3
+"187","18 - 23","Male","COLAMRUD","AERD",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",117,"Very little",3,2,1
+"188","24 - 29","Male","COLAMRUD","AEFM",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Guardian",486,"Major",3,2,3
+"189","24 - 29","Male","COLPLANT","CPT",500,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Self",340,"Major",4,4,1
+"190","18 - 23","Female","COLANIM","PRM",500,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",297,"Serious",3,3,0
+"191","18 - 23","Female","COLPLANT","CPT",100,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",324,"Major",5,4,1
+"192","24 - 29","Female","COLPHEC","HSM",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",360,"Major",0,2,1
+"193","24 - 29","Male","COLANIM","PRM",300,"Islamic","2.5 - 3.4","2.5 - 3.4","Single","Other",401,"Major",2,4,1
+"194","18 - 23","Male","COLBIOS","PAB",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",403,"Major",4,3,0
+"195","18 - 23","Male","COLANIM","ANN",500,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",233,"Moderate",2,0,2
+"196","18 - 23","Female","COLPHEC","NTD",100,"Islamic","3.5 - 4.4","3.5 - 4.4","Single","Parent",342,"Major",5,4,2
+"197","18 - 23","Male","COLPHYS","STS",200,"Islamic","1.5- 2.4","1.5- 2.4","Single","Parent",395,"Major",2,3,3
+"198","18 - 23","Male","COLPHEC","CSC",600,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",187,"Mild",4,2,0
+"199","24 - 29","Female","COLERM","FWM",200,"Islamic","2.5 - 3.4","2.5 - 3.4","Single","Parent",288,"Serious",5,5,1
+"200","18 - 23","Female","COLPHYS","CSC",400,"Christianity","3.5 - 4.4","2.5 - 3.4","Single","Parent",227,"Moderate",3,1,1
+"201","18 - 23","Male","COLPHYS","STS",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",224,"Moderate",2,2,1
+"202","18 - 23","Female","COLANIM","ANP",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",184,"Mild",3,3,0
+"203","24 - 29","Male","COLAMRUD","AEFM",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",415,"Major",3,3,2
+"204","18 - 23","Male","COLANIM","PRM",500,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",266,"Serious",2,3,1
+"205","18 - 23","Female","COLAMRUD","AEFM",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",225,"Moderate",4,2,0
+"206","18 - 23","Female","COLAMRUD","AERD",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",281,"Serious",2,1,0
+"207","24 - 29","Male","COLANIM","ABG",500,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",421,"Major",2,3,1
+"208","24 - 29","Male","COLPLANT","PBST",500,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",255,"Serious",3,3,0
+"209","18 - 23","Male","COLANIM","APH",500,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",221,"Moderate",5,4,0
+"210","18 - 23","Female","COLERM","EMT",400,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",167,"Mild",2,1,0
+"211","24 - 29","Male","COLAMRUD","AEFM",400,"Christianity","3.5 - 4.4","4.5- 5.0","Single","Parent",422,"Major",3,4,1
+"212","18 - 23","Male","COLPLANT","CPT",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",299,"Serious",5,4,1
+"213","18 - 23","Male","COLPLANT","MCB",200,"Christianity","2.5 - 3.4","2.5 - 3.4","Single","Parent",285,"Serious",3,2,2
+"214","24 - 29","Male","COLPLANT","CPT",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",188,"Mild",3,4,0
+"215","24 - 29","Male","COLPLANT","SSLM",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",266,"Serious",5,5,0
+"216","24 - 29","Male","COLPLANT","CPT",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",283,"Serious",5,5,2
+"217","18 - 23","Male","COLPHEC","FST",200,"Christianity","2.5 - 3.4","4.5- 5.0","Single","Parent",272,"Serious",5,5,0
+"218","24 - 29","Male","COLVET","CVE",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Guardian",243,"Moderate",4,5,1
+"219","24 - 29","Male","COLPLANT","CPT",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",339,"Major",5,5,0
+"220","18 - 23","Male","COLPHYS","STS",400,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",314,"Major",4,5,1
+"221","18 - 23","Male","COLPLANT","CPT",200,"Christianity","3.5 - 4.4","4.5- 5.0","Single","Parent",253,"Serious",5,5,1
+"222","18 - 23","Female","COLBIOS","PAB",300,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Other",365,"Major",5,4,0
+"223","18 - 23","Male","COLPHYS","CSC",400,"Christianity","4.5 - 5.0","3.5 - 4.4","Single","Parent",246,"Moderate",2,2,1
+"224","18 - 23","Female","COLBIOS","VET",200,"Christianity","3.5 - 4.4","3.5 - 4.4","Single","Parent",123,"Very little",4,2,0

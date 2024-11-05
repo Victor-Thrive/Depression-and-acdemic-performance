@@ -30,18 +30,15 @@ This project focuses on \[briefly describe the objective of your project, e.g cl
 
 1.  Clone the repository:
 
-    ```{bash} #| echo: true #| eval: false git clone https://github.com/Victor-Thrive/Depression-and-acdemic-performanc.git}
-    ```
+    `{bash} #| echo: true #| eval: false git clone https://github.com/Victor-Thrive/Depression-and-acdemic-performanc.git}`
 
 2.  Navigate to the project folder:
 
-    ```{bash} #| echo: true #| eval: false cd your-project}
-    ```
+    `{bash} #| echo: true #| eval: false cd your-project}`
 
 3.  Install the required R packages (run this in Rstudio or Positron)
 
-    ```{r} #| echo: true #| eval: false packages <- c("tidyverse",               "tidymodel",               "pysch",               "GPArotation",               "mice",               "googlesheets4") install.packages(packages)}
-    ```
+    `{r} #| echo: true #| eval: false packages <- c("tidyverse",               "tidymodel",               "pysch",               "GPArotation",               "mice",               "googlesheets4") install.packages(packages)}`
 
 #### Usage
 
